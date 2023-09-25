@@ -1,4 +1,7 @@
-@media screen and (max-width: 870px) {
+@media screen and (max-width: 1100px) {
+    .mobile{
+        display: flex !important;
+    }
     .navDesktop_linkText {
         display: none;
     }
@@ -7,7 +10,7 @@
         display: none;
     }
 
-    .hamburger{
+    .hamburger {
         display: flex !important;
     }
 
@@ -18,18 +21,75 @@
     }
 
     .heroSection {
-        display: block !important;
+        flex-direction: column-reverse;
+        background-position: right;
+        overflow: hidden;
     }
 
     .heroSection .leftSection {
-        width: 80%;
-        margin: 0 auto;
-        text-align: initial;
+        width: 100% !important;
+        text-align: center;
+    margin-left: 0rem !important;
+
     }
 
     .heroSection .rightSection {
-    width: 10%;
-    /* display: none; */
-    /* margin: 0 auto; */
-}
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .about{
+        margin-top: 3rem;
+    }
+
+    .aboutText{
+        /* width: 100% !important; */
+        text-align: center;
+        overflow-wrap: break-word;
+    }
+
+    .aboutText{
+        margin-bottom: 2rem;
+    }
+    
+    .aboutAbout{
+        display: block !important;
+        text-align: center;
+    }
+    
+    .aboutAboutText{
+        margin-top: 3rem;
+    }
+
+    .articlesBody {
+        display: block !important;
+    }
+
+    .articlesArticles {
+        margin-top: 3rem;
+
+    }
+
+    .footerConnect{
+        display: block !important;
+        text-align: center;
+    }
+
+    .footerLink{
+        display: block !important;
+    }
+
+    .footerBtn{
+        text-align: center;
+    }
+    
+    .footerBtn button{
+        margin-left: 8rem;
+        text-align: center;
+        margin: 1rem 0;
+    }
+
+    .footerSocial div{
+        margin-top: 1rem;
+    }
 }
