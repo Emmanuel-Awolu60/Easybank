@@ -1,0 +1,35 @@
+@media screen and (max-width: 870px) {
+    .navDesktop_linkText {
+        display: none;
+    }
+
+    .navDesktop_linkTextBtn {
+        display: none;
+    }
+
+    .hamburger{
+        display: flex !important;
+    }
+
+    .navDesktop {
+        margin-top: 0;
+        height: 3rem;
+        position: absolute;
+    }
+
+    .heroSection {
+        display: block !important;
+    }
+
+    .heroSection .leftSection {
+        width: 80%;
+        margin: 0 auto;
+        text-align: initial;
+    }
+
+    .heroSection .rightSection {
+    width: 10%;
+    /* display: none; */
+    /* margin: 0 auto; */
+}
+}
