@@ -55,6 +55,14 @@ button {
     transform: translateY(-300px);
 }
 
+.showMobile{
+    transform: translateY(0px);
+}
+
+.hidden{
+    display: none;
+}
+
 .navMobile {
     width: 70%;
     margin: 0 auto;
@@ -65,9 +73,7 @@ button {
     border-radius: 8px;
 }
 
-.close {
-    display: none;
-}
+
 
 /* NAV DESKTOP */
 
@@ -240,7 +246,7 @@ margin-right: 1rem;
 
 .footerBtn {
     display: block;
-    text-align: end;
+    /* text-align: end; */
 }
 
 .footerBtn div{
