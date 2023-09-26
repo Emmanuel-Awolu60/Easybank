@@ -146,6 +146,7 @@ button {
 .about {
     background-color: #abdab53a;
     color: grey;
+    padding-bottom: 3rem;
 }
 
 .aboutText {
