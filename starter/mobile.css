@@ -21,6 +21,11 @@
     list-style: none;
 }
 
+@font-face {
+    font-family: lato-bold;
+    src: url("./font/Lato-Bold.ttf")format(truetype);
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     color: #444;
@@ -64,7 +69,7 @@ button {
 }
 
 .navMobile {
-    width: 70%;
+    width: 85%;
     margin: 0 auto;
     margin-top: 5rem;
     background-color: whitesmoke;
@@ -73,7 +78,24 @@ button {
     border-radius: 8px;
 }
 
+.mobileHC{
+    display: none;
+}
 
+.hamburger{
+    background: url(./images/icon-hamburger.svg);
+    background-repeat: no-repeat;
+    width: 2rem;
+    height: 1rem;
+}
+
+.close{
+    background: url(./images/icon-close.svg);
+    height: 1rem;
+    width: 2rem;
+    font-weight: 900;
+    background-repeat: no-repeat;
+}
 
 /* NAV DESKTOP */
 
@@ -86,7 +108,8 @@ button {
     /* filter: drop-shadow(2px 2px .5px black); */
 }
 
-.hamburger {
+
+.hidden {
     display: none;
 }
 
@@ -98,6 +121,7 @@ button {
     justify-content: space-between;
     margin-top: 1rem;
 }
+
 
 .navDesktop_linkText ul {
     display: flex;
@@ -167,6 +191,16 @@ button {
     margin-top: 3rem;
     display: flex;
     gap: 50px;
+}
+
+.aboutAbout__one {
+    display: flex;
+    gap: 50px;
+}
+.aboutAbout__two {
+    display: flex;
+    gap: 50px;
+
 }
 
 .aboutAbout h3 {

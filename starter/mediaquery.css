@@ -1,7 +1,30 @@
+@media screen and (max-width: 700px) {
+
+    .aboutAbout{
+        justify-content: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .aboutAbout__one {
+        display: block !important;
+    }
+    .aboutAbout__two {
+        display: block !important;
+    }
+
+    /* .seconed_section{
+        justify-content: center;
+        border: 2px solid tomato;
+    } */
+}
+
 @media screen and (max-width: 1100px) {
-    .mobile{
+
+    .mobile {
         display: flex !important;
     }
+
     .navDesktop_linkText {
         display: none;
     }
@@ -29,7 +52,7 @@
     .heroSection .leftSection {
         width: 100% !important;
         text-align: center;
-    margin-left: 0rem !important;
+        margin-left: 0rem !important;
 
     }
 
@@ -38,26 +61,26 @@
         margin: 0 auto;
     }
 
-    .about{
+    .about {
         margin-top: 3rem;
     }
 
-    .aboutText{
+    .aboutText {
         /* width: 100% !important; */
         text-align: center;
         overflow-wrap: break-word;
     }
 
-    .aboutText{
+    .aboutText {
         margin-bottom: 2rem;
     }
-    
-    .aboutAbout{
+
+    .aboutAbout {
         display: block !important;
         text-align: center;
     }
-    
-    .aboutAboutText{
+
+    .aboutAboutText {
         margin-top: 3rem;
     }
 
@@ -70,26 +93,30 @@
 
     }
 
-    .footerConnect{
+    .footerConnect {
         display: block !important;
         text-align: center;
     }
 
-    .footerLink{
+    .footerLink {
         display: block !important;
     }
 
-    .footerBtn{
+    .footerBtn {
         text-align: center;
     }
-    
-    .footerBtn button{
+
+    .footerBtn button {
         margin-left: 8rem;
         text-align: center;
         margin: 1rem 0;
     }
 
-    .footerSocial div{
+    .footerSocial div {
         margin-top: 1rem;
+    }
+
+    .mobileHC {
+        display: flex !important;
     }
 }
